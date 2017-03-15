@@ -11,7 +11,8 @@
     <title>Temp</title>
 </head>
 <body>
-<table class="table table-bordered" style="margin-top: 10%">
+<center>
+<table class="table table-bordered" style="margin-top: 10%; width: 80%">
     <thead>
     <tr>
         <th>Date</th>
@@ -32,6 +33,6 @@
     @endforeach
     </tbody>
 </table>
-
+</center>
 </body>
 </html>
