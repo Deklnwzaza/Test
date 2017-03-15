@@ -11,7 +11,7 @@
     <title>Temp</title>
 </head>
 <body>
-<table class="table table-bordered">
+<table class="table table-bordered" style="margin-top: 10%">
     <thead>
     <tr>
         <th>Date</th>
@@ -21,11 +21,6 @@
     </tr>
     </thead>
     <tbody>
-    <tr>
-        <td>John</td>
-        <td>Doe</td>
-        <td>john@example.com</td>
-    </tr>
     @foreach($temps as $temp)
         <tr>
             <td>{!! $temp->Date !!}</td>
