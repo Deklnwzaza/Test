@@ -26,3 +26,9 @@ Route::get('/', function () {
 Route::resource('note', 'NoteController');
 
 Route::get('/current_weather', 'WeatherController@getCurrentWeather');
+
+Route::get('/temp_data', 'TempController@getTempData');
+
+Route::get('/daily_temp/{day}', 'TempController@getDailyWeatherData');
+
+Route::get('temp', 'TempController@index');
