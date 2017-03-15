@@ -16,7 +16,7 @@
     <thead>
     <tr>
         <th>Date</th>
-        <th>Mean_Temp</th>
+        <th>Mean_Temp </th>
         <th>Max_Temp</th>
         <th>Min_Temp</th>
     </tr>
@@ -25,9 +25,9 @@
     @foreach($temps as $temp)
         <tr>
             <td>{!! $temp->Date !!}</td>
-            <td>{!! $temp->mean_temp !!}</td>
-            <td>{!! $temp->max_temp !!}</td>
-            <td>{!! $temp->min_temp !!}</td>
+            <td>{!! $temp->mean_temp !!} C</td>
+            <td>{!! $temp->max_temp !!} C</td>
+            <td>{!! $temp->min_temp !!} C</td>
         </tr>
 
     @endforeach
